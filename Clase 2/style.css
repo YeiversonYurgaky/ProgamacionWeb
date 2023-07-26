@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*Gradiends*/
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+.card{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.card h1{
+    font-family: 'Tektur', cursive;
+}
+
+.card p{
+    font-family: 'Dancing Script', cursive;
+}
+
+.card img{
+    width: 400px;
+    height: 200px;
+}
+
+.card p{
+    padding-bottom: 10px;
+}
+
+.card button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.card button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+

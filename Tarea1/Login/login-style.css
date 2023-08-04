@@ -104,11 +104,11 @@
 }
 
 #user-img {
-  background-image: url(Assets/user-svgrepo-com.svg);
+  background-image: url(../Assets/user-svgrepo-com.svg);
 }
 
 #password-img {
-  background-image: url(Assets/password-svgrepo-com.svg);
+  background-image: url(../Assets/password-svgrepo-com.svg);
 }
 
 .icons {

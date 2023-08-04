@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+/* font-family: "Roboto", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.create {
+  max-width: 785px;
+  min-width: 320px;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    131deg,
+    #5f53e7 20%,
+    #bf6fb7 68%,
+    #e07c7f 100%
+  );
+  /* background-image: linear-gradient(124deg, #2d4c7c 40%, #d1930e 60%); */
+}
+
+.main-box {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3);
+}
+
+.lef-box {
+  width: 31.25rem;
+  height: 31.25rem;
+  color: white;
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.625rem 0 0 0.625rem;
+  background-image: linear-gradient(
+    124deg,
+    #766ce7 10%,
+    #bf6fb7 33%,
+    #e07c7f 44%,
+    #efd04f 80%
+  );
+}
+
+.lef-box h1 {
+  font-size: 40;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.lef-box p {
+  text-align: center;
+}
+
+.form-box {
+  height: 31.25rem;
+  width: 25rem;
+  border-radius: 0 0.625rem 0.625rem 0;
+  float: right;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefefe;
+}
+
+.form-box h4 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: #766ce7;
+  text-transform: uppercase;
+}
+
+.inputs {
+  height: 2.5rem;
+  width: 18.625rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #e8e6ff;
+  padding-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 10%;
+}
+
+#user-img {
+  background-image: url(Assets/user-svgrepo-com.svg);
+}
+
+#password-img {
+  background-image: url(Assets/password-svgrepo-com.svg);
+}
+
+.icons {
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 100%;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.125rem;
+}
+
+.user input {
+  margin-top: 50px;
+}
+
+.password {
+  margin-bottom: 1.875rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.125rem;
+}
+
+.options a {
+  font-size: 12px;
+  color: #999999;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.options a:hover {
+  color: #5f53e7;
+}
+
+.options label {
+  font-size: 12px;
+  color: #999999;
+  cursor: pointer;
+  margin-right: 6.25rem;
+}
+
+.checkbox-option:hover {
+  cursor: pointer;
+}
+
+.login {
+  color: white;
+  border: none;
+  width: 8.625rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  transition: transform 0.2s ease;
+  background-image: linear-gradient(
+    230deg,
+    #766ce7 20%,
+    #bf6fb7 48%,
+    #e07c7f 100%
+  );
+}
+
+.login:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-image: linear-gradient(
+    230deg,
+    #bf6fb7 20%,
+    #e07c7f 48%,
+    #766ce7 100%
+  );
+  color: white;
+}
